@@ -82,3 +82,17 @@ body {
     font-size: 0.8rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .clock-container {
+    border-width: 1rem;
+  }
+
+  .clock .time {
+    font-size: 1rem;
+  }
+
+  .clock .date {
+    font-size: 0.7rem;
+  }
+}
